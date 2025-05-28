@@ -1,6 +1,6 @@
 # College Online Voting System 🗳️
 
-This is a **web-based voting system** for college elections, built using **PHP**, **MySQL**, **HTML/CSS**, and **JavaScript**. It enables students to vote for their preferred candidates securely and efficiently online, replacing traditional paper-based voting.
+The College Online Voting System is a web-based platform designed to facilitate secure and efficient voting for college elections. The system allows students to register and cast votes online, while administrators and staff manage the election process. The project was developed specifically for a college election using PHP, MySQL Database, HTML, CSS, JavaScript (jQuery and Ajax), and Bootstrap for the design.
 
 ## 🚀 Features
 
@@ -17,7 +17,7 @@ This is a **web-based voting system** for college elections, built using **PHP**
 
 ## 🧱 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript, (jQuery, Ajax)
 - **Backend:** PHP
 - **Database:** MySQL
 - **Libraries:** Font Awesome (for icons)
