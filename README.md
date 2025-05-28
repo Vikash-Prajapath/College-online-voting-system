@@ -1,4 +1,3 @@
-
 # College Online Voting System 🗳️
 
 This is a **web-based voting system** for college elections, built using **PHP**, **MySQL**, **HTML/CSS**, and **JavaScript**. It enables students to vote for their preferred candidates securely and efficiently online, replacing traditional paper-based voting.
@@ -51,55 +50,48 @@ myproject/
 
 1. **Clone or Download the Project:**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-````
+   git clone https://github.com/yourusername/college-online-voting-system.git
 
 2. **Move to Server Directory:**
 
-   * Place the `myproject/` folder inside `htdocs` (XAMPP) or your web server root.
+   * Place the `myproject/` folder inside `htdocs` (XAMPP) or your web server root directory.
 
 3. **Database Setup:**
 
    * Open **phpMyAdmin**.
-   * Create a database (e.g., `voting_db`).
+   * Create a new database (e.g., `voting_db`).
    * Import the SQL file found in `/Database/`.
 
 4. **Configure Database Connection:**
 
    * Open `config.php`.
-   * Update your DB credentials:
+   * Update your database credentials:
 
      ```php
-     $conn = mysqli_connect("localhost", "root", "", "voting_db");
+     <?php
+       $conn = new mysqli('localhost', 'root', '', 'vote');
+     ?>
      ```
 
 5. **Run the Project:**
 
    * Start Apache and MySQL in XAMPP.
-   * Navigate to: `http://localhost/myproject`
+   * Open your browser and go to: `http://localhost/myproject`
 
-## 🔒 Security Notes
+6. **Login Credentials:**
 
-* Ensure you change default credentials before production.
-* Sanitize all form inputs to prevent SQL injection.
-* Use HTTPS for live deployment.
+   * **Admin Login:**
 
-## 📸 Screenshots (Add yours)
+     * Login ID: `1`
+     * Username: `admin`
+     * Password: `admin`
 
-*(Include relevant screenshots of the login page, voting page, result page, and admin dashboard)*
+   * **User Login:**
 
-## ✍️ Author
-
-* Developed by \[Your Name]
-* Based on a version by [SUBHAPRIYAM-dev](https://github.com/SUBHAPRIYAM-dev)
+     * Login ID: `2`
+     * Username: `user`
+     * Password: `user`
 
 ## 📜 License
 
-This project is open-source and free to use under the MIT License.
-
-```
-
----
-
-Would you like me to include some **custom screenshots**, **badges**, or a **demo video/GIF section**? Let me know, and I can enhance this further.
-```
+This project is open-source and free to use under the **MIT License**.
