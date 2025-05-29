@@ -59,7 +59,7 @@ myproject/
 3. **Database Setup:**
 
    * Open **phpMyAdmin**.
-   * Create a new database (e.g., `voting_db`).
+   * Create a new database (e.g., `vote`).
    * Import the SQL file found in `/Database/`.
 
 4. **Configure Database Connection:**
